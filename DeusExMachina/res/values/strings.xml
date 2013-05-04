@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DeusExMachina</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_feed_speed">FeedSpeed</string>
+
+    <!-- HOME -->
+    <string name="home">ExMachina Home</string>
+    <string name="feedspeed">Feeds and Speeds</string>
+    <string name="fracToDec">Fraction to Decimal Calculator</string>
+    <string name="drilltap">Drill and Tap Reference</string>
+
+    <!-- FEED SPEED -->
+    <string name="feed">Feed</string>
+    <string name="enterFeed">Enter Feed</string>
+    <string name="speed">Speed</string>
+    <string name="enterSpeed">EnterSpeed</string>
+
+    <!-- FRACTION TO DECIMAL -->
+    <string name="fraction">Fraction</string>
+    <string name="decimal">Decimal</string>
+    <string name="num">Num</string>
+    <string name="den">Den</string>
+    <string name="go">Go</string>
+
+    <!-- TAPS -->
+    <string name="tap">Common Taps</string>
+    <string name="drill">Drill for Tap</string>
+    <string name="title_activity_fraction_to_decimal">FractionToDecimal</string>
+    <string name="title_activity_drill_tap">Drill Tap</string>
+
+    <string-array name="array">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
+
+    <string name="title_activity_material">Material</string>
+    <string name="title_activity_endmill">Endmill</string>
+
+</resources>

@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Endmill" >
+
+    <TextView 
+        android:id="@+id/fracTitle"
+        style="@style/title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="End Mill"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:gravity="center">
+
+        <TextView 
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Num:"/>
+        <EditText
+            android:id="@+id/num"
+            android:inputType="number"
+            android:layout_height="wrap_content"
+            android:layout_width="70dp"
+            android:hint="@string/num"/>
+     </LinearLayout>
+        
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:gravity="center">
+        <TextView 
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Denom:"/>
+        <EditText 
+            android:id="@+id/den"
+            android:inputType="number"
+            android:layout_height="wrap_content"
+            android:layout_width="70dp"
+            android:hint="@string/den"/>
+	</LinearLayout>
+    
+    <Button 
+        android:id="@+id/button"
+        android:layout_height="wrap_content"
+        android:layout_width="140dp"
+        android:layout_gravity="center"
+       	android:text="Enter"/>
+    
+
+    
+</LinearLayout>

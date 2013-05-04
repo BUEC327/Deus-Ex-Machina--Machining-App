@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Material" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/title"
+        android:paddingBottom = "30dp"
+        android:text="Material" />
+    
+    <Button
+        android:id="@+id/steel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Steel"/>
+    <Button
+        android:id="@+id/aluminum"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Aluminum"/>
+	<Button
+	    android:id="@+id/abs"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="ABS"/>
+	<Button
+	    android:id="@+id/hdpe"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="HDPE"/>
+	
+</LinearLayout>
